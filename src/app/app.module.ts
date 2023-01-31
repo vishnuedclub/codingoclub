@@ -14,6 +14,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CodingoSupportComponent } from './codingo-support/codingo-support.component';
 import { EnterpriseSupportComponent } from './enterprise-support/enterprise-support.component';
+import { CodingoUniversityComponent } from './codingo-university/codingo-university.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { PartnerSupportComponent } from './partner-support/partner-support.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { EnterpriseSupportComponent } from './enterprise-support/enterprise-supp
     FooterComponent,
     MenuComponent,
     CodingoSupportComponent,
-    EnterpriseSupportComponent
+    EnterpriseSupportComponent,
+    CodingoUniversityComponent,
+    AboutusComponent,
+    PartnerSupportComponent
   ],
   imports: [
     BrowserModule,
