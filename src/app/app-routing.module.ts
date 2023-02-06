@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { CareersComponent } from './careers/careers.component';
 import { CodingoSupportComponent } from './codingo-support/codingo-support.component';
 import { CodingoUniversityComponent } from './codingo-university/codingo-university.component';
 import { EnterpriseSupportComponent } from './enterprise-support/enterprise-support.component';
@@ -25,6 +26,9 @@ const routes: Routes = [
   },
   {
     path: 'partner-support', component: PartnerSupportComponent
+  },
+  {
+    path: 'careers', component: CareersComponent
   },
 ];
 
