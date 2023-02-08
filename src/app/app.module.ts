@@ -17,6 +17,7 @@ import { EnterpriseSupportComponent } from './enterprise-support/enterprise-supp
 import { CodingoUniversityComponent } from './codingo-university/codingo-university.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { PartnerSupportComponent } from './partner-support/partner-support.component';
+import { CareersComponent } from './careers/careers.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { PartnerSupportComponent } from './partner-support/partner-support.compo
     EnterpriseSupportComponent,
     CodingoUniversityComponent,
     AboutusComponent,
-    PartnerSupportComponent
+    PartnerSupportComponent,
+    CareersComponent
   ],
   imports: [
     BrowserModule,
