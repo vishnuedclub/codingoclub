@@ -1,20 +1,25 @@
-.header{
+.navbar{
     background: #FFFFFF;
-    border-bottom: 1px solid #031544;
+    border-bottom: 1px solid #04216b;
+    padding: 0 10%;
 }
 .navbar-brand img{
-    width: 165px;
-    height: 50px;
+    width: 100%;
+    height: 95%;
 }
 
 .navbar-nav a{
     text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15%;
 }
 .navbar-nav a:hover{
     cursor: pointer;
 }
 .nav-item{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .special-menu{
     background: #031544;
@@ -31,7 +36,10 @@
 }
 #offcanvas-left{
     padding: 10% 5%;
-    margin: auto;
+    /* margin: auto; */
+}
+#offcanvas-left h3{
+    color: #2B32B2;
 }
 .offcanvas-left.open {
     display: block;
@@ -45,6 +53,8 @@ right: 10px;
 .offcanvas-left img{
     width: 80px;
     height: 80px;
+    margin: 0;
+    padding: 0;
 }
 
 .offcanvas-right{
@@ -59,6 +69,9 @@ right: 10px;
 #offcanvas-right{
     padding: 10% 5%;
     margin: auto;
+}
+#offcanvas-right h3{
+    color: #2B32B2;
 }
 .offcanvas-right.open {
     display: block;
